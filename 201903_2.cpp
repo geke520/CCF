@@ -1,4 +1,4 @@
-// ��ʮ�ĵ� 
+// 浜屽崄鍥涚偣 
 #include<bits/stdc++.h>
 using namespace std;
 int n=0;
@@ -8,7 +8,7 @@ stack<char> sign;
 int main()
 {
     cin >> n;
-//    getchar();
+    getchar();// 鍥炶溅 
     while(!num.empty()) num.pop();
     while(!sign.empty()) sign.pop();
     for(int i=0;i<n;i++)
